@@ -4,8 +4,17 @@
     --fuenteppal: 
 }
 
+.logo{
+    width: 25rem;
+    height: 25rem;
+}
 body {
     overflow-x: hidden;/*oculta la barra de desplazamiento horizontal*/
+}
+
+/*carrusel*/
+.alto{
+    height: 35rem;
 }
 
 /*imagenes para la carta*/
@@ -27,4 +36,33 @@ body {
 #servicios .tituloser{
     width: 100%;
     text-align: center;
+}
+
+/*contacto*/
+section{
+    width: 100%;
+    background-color:chocolate !important;
+}
+#contacto{
+    width: 100%;
+    text-align: center;
+}
+
+#contacto input,textarea{
+    width: 600px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+#contacto .titulo{
+    color:black;
+}
+
+/*footer*/
+footer{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    padding: 20px 0;
 }
