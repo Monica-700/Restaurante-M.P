@@ -13,3 +13,18 @@ body {
     width: 100%;
     height: 300px;
 }
+
+#carta .titulo{
+    width: 100%;
+    text-align: center;
+
+}
+
+#servicios{
+    background-color: chocolate;
+}
+
+#servicios .tituloser{
+    width: 100%;
+    text-align: center;
+}
