@@ -1,0 +1,9 @@
+/*configuraciones globales*/
+:root{ 
+    --colorppal: #000
+    --
+}
+
+body {
+    overflow: hidden;/*oculta la barra de desplazamiento horizontal*/
+}
