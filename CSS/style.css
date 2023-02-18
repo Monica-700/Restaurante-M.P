@@ -1,9 +1,15 @@
 /*configuraciones globales*/
 :root{ 
     --colorppal: #000
-    --
+    --fuenteppal: 
 }
 
 body {
-    overflow: hidden;/*oculta la barra de desplazamiento horizontal*/
+    overflow-x: hidden;/*oculta la barra de desplazamiento horizontal*/
+}
+
+/*imagenes para la carta*/
+.card-img-top{
+    width: 100%;
+    height: 300px;
 }
